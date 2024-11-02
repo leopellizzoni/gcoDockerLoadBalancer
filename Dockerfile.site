@@ -1,0 +1,8 @@
+# Usa a imagem base do Nginx
+FROM nginx:latest
+
+# Copiar o conteúdo do site padrão do Nginx
+COPY . /usr/share/nginx/html
+
+# Expor a porta padrão do Nginx
+EXPOSE 80
