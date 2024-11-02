@@ -1,5 +1,4 @@
-# gcoDockerLoadBalancerTemplate
-
+# gcoDockerLoadBalancer
 
 Construir e recriar os containers
 ```
